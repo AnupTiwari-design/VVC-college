@@ -1,0 +1,16 @@
+In C programming, a string is a sequence of characters stored in 
+a character array, and it is terminated by a null character ('\0').
+
+
+ex-char str[] = "Hello";
+
+'H'  'e'  'l'  'l'  'o'  '\0'
+
+Each character is stored in one array element.
+The last character '\0' tells the compiler where the string ends.
+
+string declaration
+char name[6] = {'A', 'n', 'u', 'p', '\0'};  // manual
+char name[] = "Anup";              // string literal (preferred)
+
+Hello, Anup Kumar Tiwari!
